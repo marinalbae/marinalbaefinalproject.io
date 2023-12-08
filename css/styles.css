@@ -1,0 +1,572 @@
+body {
+    max-width: 500px;
+    font-family: 'Gill Sans MT', sans-serif;
+    color: #343434;
+}
+
+.grid-containter {
+    display: grid;
+}
+
+header {
+    background-color: #f2ca00;
+    border-color: #222a35;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.promo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-indent: 2%;
+    font-size: 2vw;
+    color: white;
+    background-color: #526580
+}
+
+.header-title {
+    text-align: center;
+    font-family: 'Broadway', sans-serif;
+    font-size: 9vw;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.home-link {
+    color: #222a35!important;
+    text-decoration: none;
+}
+
+.logoaddr-flex-container {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.filmlogo {
+    margin-left: 6%;
+    width: 30vw;
+    padding-bottom: 4%;
+}
+
+.address {
+    width: 40vw;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.navbar {
+    background-color: #222a35!important;
+}
+
+/*fix this*/
+.navbar-toggler-icon {
+    color: white!important;
+}
+
+.nav-link {
+    color: white!important;
+    margin-left: 3%;
+    font-size: 5vw;
+}
+
+.nav-link:hover {
+    color: #526580!important;
+}
+
+.d-flex {
+    padding-left: 3%;
+}
+
+#search {
+    margin-right: 4%;
+    color: white;
+    background-color: #222a35;
+    border-color: white;
+}
+
+#search:active {
+    background-color: #526580;
+}
+
+.imax-container {
+    text-align: center;
+    background-color: #fff8e7;
+    border-color: #222a35;
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 4%;
+}
+
+.imax {
+    padding-top: 4%;
+    margin-right: 58%;
+    font-size: 9vw;
+    font-family: 'Broadway', sans-serif;
+}
+
+.img-fluid {
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 15%; 
+    height: 65%;
+    width: 70%;
+}
+
+#imax-ticketsD {
+    display: none;
+}
+
+#imax-ticketsM {
+    height: fit-content;
+    width: 30vw;
+    margin-top: 1%;
+    padding-right: 2%;
+    background-color: #222a35;
+    font-family: 'Broadway', sans-serif;
+    font-size: 5vw;
+}
+
+#imax-ticketsM:hover {
+    text-decoration: underline;
+}
+
+#imax-ticketsM:active {
+    background-color: #526580;
+}
+
+.imax-link {
+    color: white!important;
+    text-decoration: none;
+    padding: 10%;
+}
+
+.showtimes-container {
+    text-align: center;
+    background-color: #fff8e7;
+    border-color: #222a35;
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 4%;
+}
+
+.showtimes {
+    padding-top: 4%;
+    margin-right: 38%;
+    font-size: 9vw;
+    font-family: 'Broadway', sans-serif;
+}
+
+.date-flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.btn-date {
+    display: none;
+}
+
+.btn-label {
+    width: 10vw;
+    background-color: #fff8e7;
+    border-color: #222a35;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 3.5vw;
+}
+
+.btn-date:hover + .btn-label {
+    text-decoration: underline;
+}
+
+.btn-date:checked + .btn-label {
+    text-decoration: underline;
+    background-color: #222a35;
+    color: white;
+}
+
+#calendar {
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 1%;
+    color: #222a35;
+    font-size: 5vw;
+}
+
+#calendar:active {
+    color: #526580;
+}
+
+.movies-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.movies-flex-container-showtimes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.btn-showtimes {
+    height: fit-content;
+    font-size: 3vw;
+    margin-top: 18%;
+    padding-right: 3%;
+    background-color: #222a35;
+    color: white;
+    border-width: 0px;
+    border-radius: 0.25rem;
+}
+
+.showtimesbtn-container {
+    width: 60vw;
+}
+
+.btn-showtimes:hover {
+    text-decoration: underline;
+}
+
+.btn-showtimes:active {
+    background-color: #526580;
+}
+
+.ticket-link {
+    color: white!important;
+    text-decoration: none;
+    padding: 5%;
+}
+
+.tickets-container {
+    text-align: center;
+    background-color: #fff8e7;
+    border-color: #222a35;
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 4%;
+}
+
+.tickets {
+    padding-top: 4%;
+    margin-right: 58%;
+    font-size: 9vw;
+    font-family: 'Broadway', sans-serif;
+}
+
+.ticketsmovie-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.movie-selected-container {
+    margin-top: 10%;
+}
+
+.tickets-flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2vh;
+    flex-direction: column;
+}
+
+.tickets-price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3%;
+}
+
+.tickets-flex-container-individual {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.assorted-tickets {
+    font-size: 4vw;
+}
+
+.numtickets {
+    height: fit-content;
+    width: 7vw;
+    text-align: right;
+    font-size: 4vw;
+    margin-top: 4%;
+    margin-right: 7%;
+}
+
+.btn-payment {
+    height: fit-content;
+    font-size: 3vw;
+    font-family: 'Broadway', sans-serif;
+    padding: 1%;
+    margin-top: 3%;
+    background-color: #222a35;
+    color: white;
+    border-width: 0px;
+    border-radius: 0.25rem;
+}
+
+.btn-payment:hover {
+    text-decoration: underline;
+}
+
+.btn-payment:active {
+    background-color: #526580;
+}
+
+.btn-scroll {
+    margin-top: 9%;
+    height: fit-content;
+    width: 8vw;
+    background-color: #fff8e7;
+    border-radius: 100%;
+    border-color: #222a35;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 5vw;
+}
+
+.btn-scroll:hover {
+    text-decoration: underline;
+}
+
+.movie-showtimes {
+    min-height: 20vh;
+    min-width: 20vw;
+    max-width: 25vw;
+    width: 24vw;
+    height: 25vh;
+}
+
+.movie-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.btn-movie {
+    display: none;
+    font-family: 'Broadway', sans-serif;
+    font-size: 4vw;
+    padding-right: 8%;
+    background-color: #222a35;
+    color: white;
+    border-width: 0px;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.btn-movie:hover {
+    text-decoration: underline;
+}
+
+.btn-movie:active {
+    background-color: #526580;
+}
+
+.movie-link {
+    color: white!important;
+    text-decoration: none;
+    padding: 5%;
+}
+
+.movie-container:hover .btn-movie {
+    display: block;
+}
+  
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2ca00;
+    border-color: #222a35;
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 5%;
+}
+
+
+.logoaddr {
+    padding-top: 2%;
+}
+
+.footer-title {
+    font-size: 6vw;
+    font-family: 'Broadway', sans-serif;
+}
+
+.footer-address {
+    margin-left: 3%;
+    font-size: 2.5vw;
+}
+
+.contact {
+    width: 30vw;
+    padding-top: 8%;
+    padding-left: 5%;
+    margin-right: 2%;
+}
+
+.followus {
+    font-size: 4vw;
+}
+
+.socialmedia-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+}
+
+.socialmedia {
+    cursor: pointer;
+    height: 30%;
+    width: 30%;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 501px) {
+    body {
+        max-width: 100%;
+    }
+
+    .movie-showtimes {
+        min-height: 25vh;
+        min-width: 20vw;
+        height: 30vh;
+        width: 24vw;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        max-width: 100%;
+    }
+
+    .nav-link {
+        color: white!important;
+        margin-left: 3%;
+        font-size: 3vw;
+    }
+
+    #comingsoon {
+        width: 19.3vw;
+        margin-left: 0.5vw;
+    }
+
+    #contact {
+        margin-left: 0.5vw;
+    }
+
+    .imax-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #fff8e7;
+        border-color: #222a35;
+        border-width: 1px;
+        border-style: solid;
+        padding-bottom: 4%;
+    }
+
+    .imax {
+        padding-top: 50%;
+        margin-left: 16%;
+        margin-right: 0%;
+        font-size: 9vw;
+        font-family: 'Broadway', sans-serif;
+    }
+
+    #imax-ticketsD {
+        display: block;
+        height: fit-content;
+        width: 20vw;
+        margin-top: 1%;
+        margin-left: 27%;
+        padding-right: 10%;
+        background-color: #222a35;
+        font-family: 'Broadway', sans-serif;
+        font-size: 4vw;
+    }
+    
+    #imax-ticketsM {
+        display: none;
+    }
+
+    #imax-ticketsD:hover {
+        text-decoration: underline;
+    }
+    
+    #imax-ticketsD:active {
+        background-color: #526580;
+    }
+
+    .img-fluid {
+        margin-top: 4%;
+        margin-left: 0%;
+        margin-right: 3%; 
+        height: 45%;
+        width: 60%;
+    }
+
+    .showtimesdate-combo {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #fff8e7;
+        padding-bottom: 0%;
+    }
+
+    .showtimes {
+        padding-top: 4%;
+        margin-right: 0%;
+        font-size: 9vw;
+        font-family: 'Broadway', sans-serif;
+    }
+
+    .btn-label {
+        height: fit-content;
+        width: 8vw;
+        margin-top: 18%;
+        background-color: #fff8e7;
+        border-color: #222a35;
+        border-width: 1px;
+        border-style: solid;
+        font-size: 2.5vw;
+    }
+
+    .movie-showtimes {
+        min-height: 25vh;
+        min-width: 20vw;
+        height: 40vh;
+        width: 24vw;
+    }
+
+    #calendar {
+        cursor: pointer;
+        margin-top: 23%;
+        margin-left: 4%;
+        padding: 1%;
+        color: #222a35;
+        font-size: 4vw;
+    }
+
+    .btn-scroll {
+        margin-top: 7%;
+        height: fit-content;
+        width: 7vw;
+        background-color: #fff8e7;
+        border-radius: 100%;
+        border-color: #222a35;
+        border-width: 1px;
+        border-style: solid;
+        font-size: 4vw;
+    }
+}

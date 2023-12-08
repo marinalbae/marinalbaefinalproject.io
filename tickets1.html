@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/broadway" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gill-sans-mt-2" rel="stylesheet">
+
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <title>High End Cinemas</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <h2 class="promo">Subscribe $29.99/month for up to 3 movies, each with two food items.
+            <a class="promo-link" href="#">JOIN VIP</a>
+        </h2>
+        <h1 class="header-title">
+            <a class="home-link" href="index.html">High End Cinemas</a>
+        </h1>
+        <div class="logoaddr-flex-container">
+          <img src="filmlogo.png" class="filmlogo" alt="Film Logo">
+          <div class="addr-container">
+            <h3 class="address">123 Victor Ln</h3>
+            <h3 class="address">West City, MC 96305</h3>
+            <h3 class="address">(123) 456-4890</h3>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Showtimes</a>
+              </li>
+              <li class="nav-item" id="comingsoon">
+                <a class="nav-link" href="#">Coming Soon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item" id="contact">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary" id="search" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </nav>
+      </header>
+
+        <div class="tickets-container">
+            <h2 class="tickets">Tickets</h2>
+            <div class="ticketsmovie-flex-container">
+                <div class="movie-selected-container">
+                    <img src="movie1.jpg" class="movie-showtimes" alt="Barbie">
+                </div>
+                <div class="tickets-flex-container">
+                    <div class="tickets-flex-container-individual">
+                        <div class="tickets-price-container">
+                            <h3 class="assorted-tickets">Regular/Matinee:</h3>
+                            <h3 class="assorted-tickets">$10.00</h3>
+                        </div>
+                        <input class="numtickets" type="number" min="0" max="30" value="0"/>
+                    </div>
+                    <div class="tickets-flex-container-individual">
+                        <div class="tickets-price-container">
+                            <h3 class="assorted-tickets">Student:</h3>
+                            <h3 class="assorted-tickets">$8.00</h3>
+                        </div>
+                        <input class="numtickets" type="number" min="0" max="30" value="0"/>
+                    </div>
+                    <div class="tickets-flex-container-individual">
+                        <div class="tickets-price-container">
+                            <h3 class="assorted-tickets">Military/First Response:</h3>
+                            <h3 class="assorted-tickets">$7.50</h3>
+                        </div>
+                        <input class="numtickets" type="number" min="0" max="30" value="0"/>
+                    </div>
+                    <div class="tickets-flex-container-individual">
+                        <div class="tickets-price-container">
+                            <h3 class="assorted-tickets">Senior:</h3>
+                            <h3 class="assorted-tickets">$6.00</h3>
+                        </div>
+                        <input class="numtickets" type="number" min="0" max="30" value="0"/>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-payment" type="submit">Proceed to Payment</button>
+        </div>
+
+      <footer class="footer-container">
+        <div class="logoaddr">
+          <h1 class="footer-title">
+            <a class="home-link" href="index.html">High End Cinemas</a>
+          </h1>
+          <h3 class="footer-address">123 Victor Ln</h3>
+          <h3 class="footer-address">West City, MC 96305</h3>
+          <h3 class="footer-address">(123) 456-4890</h3>
+        </div>
+
+        <div class="contact">
+          <h3 class="followus">Follow Us:</h3>
+          <div class="socialmedia-container">
+            <img src="facebook.png" class="socialmedia" alt="Facebook">
+            <img src="insta.jpeg" class="socialmedia" alt="Instagram">
+            <img src="twitter.png" class="socialmedia" alt="Twitter">
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
