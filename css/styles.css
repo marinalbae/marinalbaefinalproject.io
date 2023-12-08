@@ -113,32 +113,32 @@ header {
     width: 70%;
 }
 
-#imax-ticketsD {
+.imax-linkD {
     display: none;
 }
 
-#imax-ticketsM {
+.imax-linkM {
     height: fit-content;
     width: 30vw;
     margin-top: 1%;
-    padding-right: 2%;
+    color: white;
     background-color: #222a35;
     font-family: 'Broadway', sans-serif;
     font-size: 5vw;
+    border-width: 0px;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-#imax-ticketsM:hover {
+.imax-linkM:hover {
+    color: white;
     text-decoration: underline;
 }
 
-#imax-ticketsM:active {
+.imax-linkM:active {
     background-color: #526580;
-}
-
-.imax-link {
-    color: white!important;
-    text-decoration: none;
-    padding: 10%;
 }
 
 .showtimes-container {
@@ -213,33 +213,31 @@ header {
     margin-left: 5%;
 }
 
-.btn-showtimes {
+.showtimesbtn-container {
+    margin-top: 18%;
+    width: 60vw;
+}
+
+.ticket-link {
     height: fit-content;
     font-size: 3vw;
-    margin-top: 18%;
-    padding-right: 3%;
+    text-decoration: none;
     background-color: #222a35;
     color: white;
     border-width: 0px;
     border-radius: 0.25rem;
+    padding: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-.showtimesbtn-container {
-    width: 60vw;
-}
-
-.btn-showtimes:hover {
+.ticket-link:hover {
+    color: white;
     text-decoration: underline;
 }
 
-.btn-showtimes:active {
+.ticket-link:active {
     background-color: #526580;
-}
-
-.ticket-link {
-    color: white!important;
-    text-decoration: none;
-    padding: 5%;
 }
 
 .tickets-container {
@@ -350,12 +348,11 @@ header {
     position: relative;
     display: inline-block;
   }
-  
-.btn-movie {
+
+.movie-link {
     display: none;
     font-family: 'Broadway', sans-serif;
-    font-size: 4vw;
-    padding-right: 8%;
+    font-size: 3.5vw;
     background-color: #222a35;
     color: white;
     border-width: 0px;
@@ -364,23 +361,21 @@ header {
     top: 90%;
     left: 50%;
     transform: translate(-50%, -90%);
+    text-decoration: none;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-.btn-movie:hover {
+.movie-link:hover {
+    color: white;
     text-decoration: underline;
 }
 
-.btn-movie:active {
+.movie-link:active {
     background-color: #526580;
 }
 
-.movie-link {
-    color: white!important;
-    text-decoration: none;
-    padding: 5%;
-}
-
-.movie-container:hover .btn-movie {
+.movie-container:hover .movie-link {
     display: block;
 }
   
@@ -485,27 +480,33 @@ header {
         font-family: 'Broadway', sans-serif;
     }
 
-    #imax-ticketsD {
+    .imax-linkD {
         display: block;
         height: fit-content;
         width: 20vw;
         margin-top: 1%;
         margin-left: 27%;
-        padding-right: 10%;
+        border-width: 0px;
+        border-radius: 0.25rem;
+        color: white;
         background-color: #222a35;
         font-family: 'Broadway', sans-serif;
         font-size: 4vw;
+        text-decoration: none;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     
-    #imax-ticketsM {
+    .imax-linkM {
         display: none;
     }
 
-    #imax-ticketsD:hover {
+    .imax-linkD:hover {
+        color: white;
         text-decoration: underline;
     }
     
-    #imax-ticketsD:active {
+    .imax-linkD:active {
         background-color: #526580;
     }
 
