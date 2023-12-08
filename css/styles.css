@@ -74,6 +74,10 @@ header {
     color: #526580!important;
 }
 
+.nav-link:focus {
+    color: #526580!important;
+}
+
 .d-flex {
     padding-left: 3%;
 }
@@ -137,6 +141,11 @@ header {
     text-decoration: underline;
 }
 
+.imax-linkM:focus {
+    color: white;
+    text-decoration: underline;
+}
+
 .imax-linkM:active {
     background-color: #526580;
 }
@@ -177,6 +186,10 @@ header {
 }
 
 .btn-date:hover + .btn-label {
+    text-decoration: underline;
+}
+
+.btn-date:focus + .btn-label {
     text-decoration: underline;
 }
 
@@ -232,6 +245,11 @@ header {
 }
 
 .ticket-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.ticket-link:focus {
     color: white;
     text-decoration: underline;
 }
@@ -316,6 +334,10 @@ header {
     text-decoration: underline;
 }
 
+.btn-payment:focus {
+    text-decoration: underline;
+}
+
 .btn-payment:active {
     background-color: #526580;
 }
@@ -333,6 +355,10 @@ header {
 }
 
 .btn-scroll:hover {
+    text-decoration: underline;
+}
+
+.btn-scroll:focus {
     text-decoration: underline;
 }
 
@@ -371,11 +397,20 @@ header {
     text-decoration: underline;
 }
 
+.movie-link:focus {
+    color: white;
+    text-decoration: underline;
+}
+
 .movie-link:active {
     background-color: #526580;
 }
 
 .movie-container:hover .movie-link {
+    display: block;
+}
+
+.movie-container:focus .movie-link {
     display: block;
 }
   
@@ -502,6 +537,11 @@ header {
     }
 
     .imax-linkD:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .imax-linkD:focus {
         color: white;
         text-decoration: underline;
     }
