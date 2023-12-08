@@ -1,3 +1,3 @@
 # marinalbaefinalproject.io
-The comany name serves as a link to the homepage.
-All images were licensed for reuse.
+The company name serves as a link to the homepage.
+All images were from a public domain or licensed for reuse.
